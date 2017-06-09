@@ -19,7 +19,7 @@ public class BowlingGame {
 		if(frames.size()<10)
 			this.frames.add(frame);
 		else
-			throw new BowlingException;
+			throw new BowlingException();
 	}
 	
 	// Sets the bonus throws at the end of the game
