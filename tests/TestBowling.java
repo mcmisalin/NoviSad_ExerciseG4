@@ -88,7 +88,7 @@ public class TestBowling {
 	@Test
 	public void testWhenLastFrameIsSpare()throws BowlingException{
 		bg= new BowlingGame();
-		addFrames(bg, frame, 9);
+		addFrames(bg, new Frame(1,1), 9);
 		bg.addFrame(new Frame(5,5));
 		assertEquals(11,bg.getFrames().get(0).getFrameScore());
 	}
