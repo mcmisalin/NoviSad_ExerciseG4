@@ -29,4 +29,22 @@ public class BowlingGame {
 		//to be implemented: should return game score 
 		return 0;
 	}
+
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+	public void setFrames(List<Frame> frames) {
+		this.frames = frames;
+	}
+
+	public Frame getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(Frame bonus) {
+		this.bonus = bonus;
+	}
+	
+	
 }
