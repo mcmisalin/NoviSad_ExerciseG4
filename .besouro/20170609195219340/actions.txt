@@ -86,3 +86,6 @@ RefactoringAction 1497031770268 TestBowling.java RENAME testIfFrameIsSpare()/2=>
 RefactoringAction 1497031771297 TestBowling.java RENAME testIfFrameIsSte()=>void testIfFrameIsStrike() METHOD
 EditAction 1497031775691 TestBowling.java 927 6 10 4
 EditAction 1497031784102 TestBowling.java 928 6 10 4
+UnitTestCaseAction 1497031789558 TestBowling.java FAIL
+UnitTestSessionAction 1497031789561 TestBowling.java FAIL
+EditAction 1497031801371 Frame.java 930 6 10 0
