@@ -36,5 +36,7 @@ public class Frame {
 	public boolean isSpare(){
 		if(this.firstThrow+this.secondThrow==10 && !isStrike())
 			return true;
+		else
+			return false;
 	}
 }
