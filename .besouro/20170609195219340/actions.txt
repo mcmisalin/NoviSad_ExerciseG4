@@ -45,3 +45,7 @@ EditAction 1497031420772 Frame.java 864 6 10 0
 UnitTestCaseAction 1497031426964 TestBowling.java OK
 UnitTestSessionAction 1497031426966 TestBowling.java OK
 EditAction 1497031468431 Frame.java 900 6 6 0
+CompilationAction 1497031471451 Frame.java
+CompilationAction 1497031478785 Frame.java
+RefactoringAction 1497031484952 TestBowling.java ADD void testWhen FIELD
+EditAction 1497031489251 Frame.java 865 6 10 0
