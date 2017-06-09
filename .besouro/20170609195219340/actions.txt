@@ -65,3 +65,7 @@ EditAction 1497031552012 Frame.java 865 6 10 0
 UnitTestCaseAction 1497031558372 TestBowling.java OK
 UnitTestSessionAction 1497031558374 TestBowling.java OK
 EditAction 1497031568669 Frame.java 864 6 10 0
+RefactoringAction 1497031606620 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1497031611666 BowlingException.java ADD BowlingException()/2 METHOD
+RefactoringAction 1497031615196 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
+EditAction 1497031619873 BowlingException.java 173 2 2 0
