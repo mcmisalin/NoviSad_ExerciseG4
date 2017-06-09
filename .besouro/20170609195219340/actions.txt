@@ -23,3 +23,13 @@ RefactoringAction 1497031224342 Frame.java RENAME ukupno=>int frameScore FIELD
 EditAction 1497031281764 Frame.java 833 6 9 0
 CompilationAction 1497031284944 TestBowling.java
 EditAction 1497031303932 Frame.java 874 6 10 0
+CompilationAction 1497031319413 TestBowling.java
+UnitTestCaseAction 1497031322656 TestBowling.java OK
+UnitTestSessionAction 1497031322658 TestBowling.java OK
+RefactoringAction 1497031333398 TestBowling.java ADD void testWhen FIELD
+RefactoringAction 1497031336415 TestBowling.java RENAME testWhen=>void testWhenThrow FIELD
+RefactoringAction 1497031337933 TestBowling.java RENAME testWhenThrow=>void testWhenThrowMore FIELD
+RefactoringAction 1497031339972 TestBowling.java RENAME testWhenThrowMore=>void testWhenThrowMoreThen FIELD
+RefactoringAction 1497031341003 TestBowling.java RENAME testWhenThrowMoreThen=>void testWhenThrowMoreThen10 FIELD
+RefactoringAction 1497031343038 TestBowling.java RENAME testWhenThrowMoreThen10=>void METHOD
+EditAction 1497031372455 TestBowling.java 476 3 4 2
