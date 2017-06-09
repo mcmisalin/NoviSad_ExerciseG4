@@ -72,3 +72,8 @@ EditAction 1497031619873 BowlingException.java 173 2 2 0
 RefactoringAction 1497031642004 TestBowling.java ADD void testIfF FIELD
 RefactoringAction 1497031646037 TestBowling.java RENAME testIfF=>void testIfFrameIsSpare() METHOD
 EditAction 1497031675156 TestBowling.java 767 5 8 3
+CompilationAction 1497031678196 TestBowling.java
+CompilationAction 1497031683915 TestBowling.java
+UnitTestCaseAction 1497031687966 TestBowling.java FAIL
+UnitTestSessionAction 1497031687968 TestBowling.java FAIL
+EditAction 1497031743010 Frame.java 900 6 10 0
