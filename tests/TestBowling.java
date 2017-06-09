@@ -90,7 +90,7 @@ public class TestBowling {
 		bg= new BowlingGame();
 		bg.addFrame(new Frame(5, 5));
 		bg.addFrame(new Frame(1,0));
-		assertEquals(11,bg.score());
+		assertEquals(11,bg.getFrames().get(0).score());
 	}
 	
 	

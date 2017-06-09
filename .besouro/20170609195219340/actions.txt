@@ -217,3 +217,6 @@ RefactoringAction 1497033281816 TestBowling.java RENAME testWhenLastframe=>void 
 RefactoringAction 1497033285394 TestBowling.java RENAME testWhenFrameIs=>void testWhenFrameIsSpare() METHOD
 EditAction 1497033362806 TestBowling.java 2296 14 29 8
 EditAction 1497033396924 TestBowling.java 2328 14 30 9
+UnitTestCaseAction 1497033401863 TestBowling.java OK
+UnitTestSessionAction 1497033401866 TestBowling.java OK
+EditAction 1497033440417 TestBowling.java 2347 14 30 9
