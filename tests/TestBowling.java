@@ -50,10 +50,10 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testAddingFrame(){
+	public void testAddingFrame() throws BowlingException{
 		bg= new BowlingGame();
 		bg.addFrame(new Frame(2,2));
-		
+		assertEquals(1,bg.getFrames().length);
 	}
 	
 }

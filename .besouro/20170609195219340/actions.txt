@@ -109,3 +109,6 @@ UnitTestSessionAction 1497031924419 TestBowling.java OK
 RefactoringAction 1497031961424 TestBowling.java ADD void test FIELD
 RefactoringAction 1497031968453 TestBowling.java RENAME test=>void testAddingFrame() METHOD
 EditAction 1497031990370 TestBowling.java 1164 8 14 5
+CompilationAction 1497031993442 TestBowling.java
+CompilationAction 1497032003228 TestBowling.java
+EditAction 1497032065040 TestBowling.java 1226 8 15 6
