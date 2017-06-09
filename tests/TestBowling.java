@@ -118,6 +118,8 @@ public class TestBowling {
 		bg.addFrame(new Frame(2,8));
 		bg.setBonus(6, 0);
 		
+		assertEquals(133,bg.score())
+		
 	}
 	
 	
