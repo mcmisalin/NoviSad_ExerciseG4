@@ -104,3 +104,8 @@ RefactoringAction 1497031880436 TestBowling.java ADD BowlingGame bg FIELD
 EditAction 1497031881273 TestBowling.java 1010 7 10 4
 EditAction 1497031895991 TestBowling.java 1032 7 11 4
 EditAction 1497031920896 TestBowling.java 1054 7 12 5
+UnitTestCaseAction 1497031924416 TestBowling.java OK
+UnitTestSessionAction 1497031924419 TestBowling.java OK
+RefactoringAction 1497031961424 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031968453 TestBowling.java RENAME test=>void testAddingFrame() METHOD
+EditAction 1497031990370 TestBowling.java 1164 8 14 5

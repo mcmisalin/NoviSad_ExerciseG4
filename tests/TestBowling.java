@@ -49,4 +49,11 @@ public class TestBowling {
 		assertNotNull(bg);
 	}
 	
+	@Test
+	public void testAddingFrame(){
+		bg= new BowlingGame();
+		bg.addFrame(new Frame(2,2));
+		
+	}
+	
 }
