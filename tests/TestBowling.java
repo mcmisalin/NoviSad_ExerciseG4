@@ -72,11 +72,18 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testAddingBonus(){
+	public void testAddingBonus() throws BowlingException{
 		bg = new BowlingGame();
-		bg.setBonus(2, 2);
+		bg.setBonus(2,2);
 		assertTrue(bg.getBonus().getFirstThrow()==2 && bg.getBonus().getSecondThrow()==2);
 		}
+	
+	
+	@Test
+	public void testAddingBonusMoreThen10(){
+		bg = new BowlingGame();
+		bg.setBonus(4, 8);
+	}
 	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
 		for (int i = 0; i < number; i++) {
