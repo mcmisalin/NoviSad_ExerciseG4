@@ -287,3 +287,6 @@ RefactoringAction 1497035474627 TestBowling.java ADD void test FIELD
 RefactoringAction 1497035477676 TestBowling.java RENAME test=>void testOpisPartije FIELD
 RefactoringAction 1497035481240 TestBowling.java RENAME testOpisPartije=>void testOpisPartije() METHOD
 EditAction 1497035508716 TestBowling.java 2701 16 38 10
+CompilationAction 1497035511729 TestBowling.java
+CompilationAction 1497035520359 TestBowling.java
+EditAction 1497035591896 TestBowling.java 3036 16 48 10
