@@ -53,7 +53,7 @@ public class TestBowling {
 	public void testAddingFrame() throws BowlingException{
 		bg= new BowlingGame();
 		bg.addFrame(new Frame(2,2));
-		assertEquals(1,bg.getFrames().get(0));
+		assertEquals(1,bg.getFrames().size());
 	}
 	
 }

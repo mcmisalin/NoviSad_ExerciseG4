@@ -121,3 +121,5 @@ RefactoringAction 1497032101585 BowlingGame.java ADD void setBonus(Frame) METHOD
 EditAction 1497032122277 TestBowling.java 1219 8 15 6
 CompilationAction 1497032125393 TestBowling.java
 EditAction 1497032133951 TestBowling.java 1226 8 15 6
+CompilationAction 1497032137083 TestBowling.java
+EditAction 1497032145068 TestBowling.java 1226 8 15 6
