@@ -38,8 +38,6 @@ public class BowlingGame {
 						frames.get(i-1).setFrameScore(frames.get(i-1).getFrameScore()+frames.get(i).score());
 			}
 			ukupno+=frames.get(i).score();
-			
-			
 		}
 		
 		if(bonus!=null){
