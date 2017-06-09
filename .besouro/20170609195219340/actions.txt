@@ -145,3 +145,6 @@ RefactoringAction 1497032415275 TestBowling.java RENAME addFrames(BowlingExcepti
 RefactoringAction 1497032461157 TestBowling.java RENAME addFrames(BowlingException, Frame, int, int)=>void addFrames(BowlingG, Frame, int, int) METHOD
 RefactoringAction 1497032462714 TestBowling.java RENAME addFrames(BowlingG, Frame, int, int)=>void addFrames(BowlingGame, Frame, int, int) METHOD
 EditAction 1497032474963 TestBowling.java 1546 10 18 6
+CompilationAction 1497032477967 TestBowling.java
+RefactoringAction 1497032482396 TestBowling.java RENAME addFrames(BowlingGame, Frame, int, int)=>void addFrames(BowlingGame, Frame, int) METHOD
+EditAction 1497032517810 TestBowling.java 1556 10 18 6

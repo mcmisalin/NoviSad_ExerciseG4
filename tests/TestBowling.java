@@ -60,11 +60,11 @@ public class TestBowling {
 	@Test(expected=BowlingException.class)
 	public void testAddingFrameWhenMoreThen10()throws BowlingException{
 		bg= new BowlingGame();
-		addFrames();
+		addFrames(bg,new Frame(1,1),15);
 		
 	}
 	
-	public void addFrames(BowlingGame bg, Frame frame, int number,int score){
+	public void addFrames(BowlingGame bg, Frame frame, int number){
 		for (int i = 0; i < number; i++) {
 			bg.addFrame(frame);
 		}
