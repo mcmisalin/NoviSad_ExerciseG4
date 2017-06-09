@@ -15,8 +15,11 @@ public class BowlingGame {
 	}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
-		this.frames.add(frame);
+	public void addFrame(Frame frame) throws BowlingException{
+		if(frames.size()<10)
+			this.frames.add(frame);
+		else
+			throw new BowlingException;
 	}
 	
 	// Sets the bonus throws at the end of the game
