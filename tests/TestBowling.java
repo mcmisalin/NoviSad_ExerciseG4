@@ -33,5 +33,11 @@ public class TestBowling {
 		assertTrue(frame.isSpare());
 	}
 	
+	@Test
+	public void testIfFrameIsStrike() throws BowlingException{
+		frame = new Frame(10,0);
+		assertTrue(frame.isSpare());
+	}
+	
 	
 }
