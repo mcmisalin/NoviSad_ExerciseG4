@@ -180,3 +180,10 @@ CompilationAction 1497032889855 BowlingGame.java
 CompilationAction 1497032900168 BowlingGame.java
 CompilationAction 1497032900407 BowlingGame.java
 EditAction 1497032902130 Frame.java 1104 8 12 0
+UnitTestCaseAction 1497032907798 TestBowling.java OK
+UnitTestSessionAction 1497032907800 TestBowling.java OK
+RefactoringAction 1497032923436 TestBowling.java ADD void test FIELD
+RefactoringAction 1497032932046 TestBowling.java RENAME test=>void testAddingBonus FIELD
+RefactoringAction 1497032933583 TestBowling.java RENAME testAddingBonus=>void testAddingBonus() METHOD
+RefactoringAction 1497032971473 BowlingGame.java REMOVE setBonus(Frame) METHOD
+EditAction 1497032972763 BowlingGame.java 1073 7 6 0

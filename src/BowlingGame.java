@@ -46,11 +46,6 @@ public class BowlingGame {
 
 	public Frame getBonus() {
 		return bonus;
-	}
-
-	public void setBonus(Frame bonus) {
-		this.bonus = bonus;
-	}
-	
+	}	
 	
 }
