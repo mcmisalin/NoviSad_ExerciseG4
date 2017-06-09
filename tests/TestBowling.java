@@ -45,7 +45,7 @@ public class TestBowling {
 	
 	@Test
 	public void testBowlingGameConstr(){
-		
+		bg= new BowlingGame();
 	}
 	
 }
