@@ -19,3 +19,5 @@ UnitTestCaseAction 1497031193019 TestBowling.java FAIL
 UnitTestSessionAction 1497031193021 TestBowling.java FAIL
 RefactoringAction 1497031214305 Frame.java ADD int ukupno FIELD
 EditAction 1497031214456 Frame.java 693 6 7 0
+RefactoringAction 1497031224342 Frame.java RENAME ukupno=>int frameScore FIELD
+EditAction 1497031281764 Frame.java 833 6 9 0

@@ -1,9 +1,11 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	private int ukupno;
+	private int frameScore;
 	
-	public Frame(int firstThrow, int secondThrow){
+	public Frame(int firstThrow, int secondThrow) throws BowlingException{
+		if(this.firstThrow+this.secondThrow>10)
+			throw new BowlingException();
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
@@ -18,8 +20,8 @@ public class Frame {
 
 	//returns the score of a single frame
 	public int score(){
-		//to be implemented
-		return 0;
+		frameScore= this.firstThrow+this.secondThrow;
+		return frameScore;
 	}
 
 	//returns whether the frame is a strike or not
