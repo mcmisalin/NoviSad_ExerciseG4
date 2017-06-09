@@ -103,24 +103,6 @@ public class TestBowling {
 		assertEquals(29,bg.score());
 	}
 	
-	@Test
-	public void testOpisPartije()throws BowlingException{
-		bg=new BowlingGame();
-		bg.addFrame(new Frame(1,4));
-		bg.addFrame(new Frame(4,5));
-		bg.addFrame(new Frame(6,4));
-		bg.addFrame(new Frame(5,5));
-		bg.addFrame(new Frame(10,0));
-		bg.addFrame(new Frame(0,1));
-		bg.addFrame(new Frame(7,3));
-		bg.addFrame(new Frame(6,4));
-		bg.addFrame(new Frame(10,0));
-		bg.addFrame(new Frame(2,8));
-		bg.setBonus(6, 0);
-		
-		assertEquals(133,bg.score());
-		
-	}
 	
 	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
