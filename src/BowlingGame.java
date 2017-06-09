@@ -46,7 +46,7 @@ public class BowlingGame {
 			if(frames.get(9).isSpare())
 				ukupno+=bonus.getFirstThrow();
 			else if(frames.get(9).isStrike())
-				ukupno+=0;
+				ukupno+=bonus.score();
 		}
 		return ukupno;
 	}
