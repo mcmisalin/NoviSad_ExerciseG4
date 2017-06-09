@@ -62,3 +62,6 @@ CompilationAction 1497031525980 TestBowling.java
 CompilationAction 1497031540647 TestBowling.java
 EditAction 1497031545195 Frame.java 899 6 10 0
 EditAction 1497031552012 Frame.java 865 6 10 0
+UnitTestCaseAction 1497031558372 TestBowling.java OK
+UnitTestSessionAction 1497031558374 TestBowling.java OK
+EditAction 1497031568669 Frame.java 864 6 10 0
