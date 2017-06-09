@@ -64,7 +64,14 @@ public class TestBowling {
 		
 	}
 	
-	public void addFrames(BowlingGame bg, Frame frame, int number){
+	@Test
+	public void testSimpleBowlingGame()throws BowlingException{
+		bg= new BowlingGame();
+		addFrames(bg,new Frame(1,1),10);
+		assertEquals(20,bg.score());
+	}
+	
+	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
 		for (int i = 0; i < number; i++) {
 			bg.addFrame(frame);
 		}
