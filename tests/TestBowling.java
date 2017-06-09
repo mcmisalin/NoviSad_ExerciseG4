@@ -71,6 +71,13 @@ public class TestBowling {
 		assertEquals(20,bg.score());
 	}
 	
+	@Test
+	public void testAddingBonus(){
+		bg = new BowlingGame();
+		bg.setBonus(2, 2);
+		assertTrue(bg.getBonus().getFirstThrow()==2 && bg.getBonus().getSecondThrow()==2);
+		}
+	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
 		for (int i = 0; i < number; i++) {
 			bg.addFrame(frame);
