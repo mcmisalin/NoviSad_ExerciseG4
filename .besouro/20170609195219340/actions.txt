@@ -169,3 +169,10 @@ UnitTestSessionAction 1497032693053 TestBowling.java FAIL
 EditAction 1497032729551 BowlingGame.java 1075 8 7 0
 RefactoringAction 1497032770196 BowlingGame.java ADD int ukupno FIELD
 EditAction 1497032770626 BowlingGame.java 1099 8 7 0
+RefactoringAction 1497032845706 Frame.java ADD int getFrameScore() METHOD
+RefactoringAction 1497032845710 Frame.java ADD void setFrameScore(int) METHOD
+RefactoringAction 1497032845711 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1497032845712 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1497032864293 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1497032864295 Frame.java REMOVE setFirstThrow(int) METHOD
+EditAction 1497032886758 BowlingGame.java 1142 8 7 0
