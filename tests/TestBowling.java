@@ -94,6 +94,15 @@ public class TestBowling {
 		assertEquals(29,bg.score());
 	}
 	
+	@Test
+	public void testWhenLastFrameIsStrike()throws BowlingException{
+		bg= new BowlingGame();
+		addFrames(bg, new Frame(1,1), 9);
+		bg.addFrame(new Frame(10,0));
+		bg.setBonus(1, 0);
+		assertEquals(29,bg.score());
+	}
+	
 	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
 		for (int i = 0; i < number; i++) {
