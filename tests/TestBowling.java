@@ -5,8 +5,11 @@ import org.junit.Test;
 public class TestBowling {
 
 	Frame frame;
+	BowlingGame bg;
+	
+	
 	@Test
-	public void testFrameContrs() throws BowlingException{
+	public void testFrameConstr() throws BowlingException{
 		frame= new Frame(2,2);
 		assertNotNull(frame);
 	}
@@ -39,5 +42,10 @@ public class TestBowling {
 		assertTrue(frame.isStrike());
 	}
 	
+	
+	@Test
+	public void testBowlingGameConstr(){
+		
+	}
 	
 }

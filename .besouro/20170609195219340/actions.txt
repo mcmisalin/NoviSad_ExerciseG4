@@ -91,3 +91,14 @@ UnitTestSessionAction 1497031789561 TestBowling.java FAIL
 EditAction 1497031801371 Frame.java 930 6 10 0
 CompilationAction 1497031805189 Frame.java
 EditAction 1497031815746 Frame.java 956 6 10 0
+UnitTestCaseAction 1497031822817 TestBowling.java OK
+UnitTestSessionAction 1497031822819 TestBowling.java OK
+RefactoringAction 1497031833024 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031836063 TestBowling.java RENAME test=>void testBowling FIELD
+RefactoringAction 1497031841109 TestBowling.java RENAME testBowling=>void testBowlingGame FIELD
+RefactoringAction 1497031856133 TestBowling.java RENAME testBowlingGame=>void testBowlingGameC FIELD
+RefactoringAction 1497031859183 TestBowling.java RENAME testBowlingGameC=>void METHOD
+RefactoringAction 1497031863246 TestBowling.java RENAME testFrameContrs()=>void testFrameContr() METHOD
+RefactoringAction 1497031865297 TestBowling.java RENAME testFrameContr()=>void testFrameConstr() METHOD
+RefactoringAction 1497031880436 TestBowling.java ADD BowlingGame bg FIELD
+EditAction 1497031881273 TestBowling.java 1010 7 10 4
