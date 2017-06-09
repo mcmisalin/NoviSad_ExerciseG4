@@ -4,9 +4,12 @@ import org.junit.Test;
 
 public class TestBowling {
 
+	Frame frame;
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testFrameContrs() {
+		frame= new Frame();
+		
+		
 	}
 
 }
