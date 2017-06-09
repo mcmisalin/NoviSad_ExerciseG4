@@ -85,6 +85,12 @@ public class TestBowling {
 		bg.setBonus(4, 8);
 	}
 	
+	@Test
+	public void testWhenFrameIsSpare()throws BowlingException{
+		bg= new BowlingGame();
+		bg.addFrame(new Frame(5, 5));
+		bg.addFrame(new Frame(1,0));
+	}
 	
 	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{

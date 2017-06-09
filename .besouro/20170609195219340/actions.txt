@@ -208,3 +208,11 @@ CompilationAction 1497033223716 TestBowling.java
 UnitTestCaseAction 1497033226905 TestBowling.java OK
 UnitTestSessionAction 1497033226907 TestBowling.java OK
 EditAction 1497033240867 TestBowling.java 2132 13 26 8
+RefactoringAction 1497033257552 TestBowling.java ADD void test FIELD
+RefactoringAction 1497033266630 TestBowling.java RENAME test=>void testWhen FIELD
+RefactoringAction 1497033269688 TestBowling.java RENAME testWhen=>void testWhenIts FIELD
+RefactoringAction 1497033271719 TestBowling.java RENAME testWhenIts=>void testWhen FIELD
+RefactoringAction 1497033276259 TestBowling.java RENAME testWhen=>void testWhenLastframe FIELD
+RefactoringAction 1497033281816 TestBowling.java RENAME testWhenLastframe=>void testWhenFrameIs FIELD
+RefactoringAction 1497033285394 TestBowling.java RENAME testWhenFrameIs=>void testWhenFrameIsSpare() METHOD
+EditAction 1497033362806 TestBowling.java 2296 14 29 8
