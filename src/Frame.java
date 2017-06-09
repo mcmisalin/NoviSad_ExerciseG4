@@ -41,4 +41,13 @@ public class Frame {
 		else
 			return false;
 	}
+
+	public int getFrameScore() {
+		return frameScore;
+	}
+
+	public void setFrameScore(int frameScore) {
+		this.frameScore = frameScore;
+	}	
+	
 }

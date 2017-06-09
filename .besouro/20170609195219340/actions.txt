@@ -176,3 +176,7 @@ RefactoringAction 1497032845712 Frame.java ADD void setSecondThrow(int) METHOD
 RefactoringAction 1497032864293 Frame.java REMOVE setSecondThrow(int) METHOD
 RefactoringAction 1497032864295 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1497032886758 BowlingGame.java 1142 8 7 0
+CompilationAction 1497032889855 BowlingGame.java
+CompilationAction 1497032900168 BowlingGame.java
+CompilationAction 1497032900407 BowlingGame.java
+EditAction 1497032902130 Frame.java 1104 8 12 0
