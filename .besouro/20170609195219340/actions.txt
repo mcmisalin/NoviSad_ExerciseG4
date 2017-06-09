@@ -129,3 +129,11 @@ EditAction 1497032190347 BowlingGame.java 975 8 5 0
 UnitTestCaseAction 1497032196476 TestBowling.java FAIL
 UnitTestSessionAction 1497032196478 TestBowling.java FAIL
 EditAction 1497032264928 BowlingGame.java 979 8 6 0
+UnitTestCaseAction 1497032270432 TestBowling.java OK
+UnitTestSessionAction 1497032270435 TestBowling.java OK
+RefactoringAction 1497032304769 TestBowling.java ADD void testAdding FIELD
+RefactoringAction 1497032305798 TestBowling.java RENAME testAdding=>void testAddingF FIELD
+RefactoringAction 1497032309827 TestBowling.java RENAME testAddingF=>void testAddingFrameWhenMore FIELD
+RefactoringAction 1497032311360 TestBowling.java RENAME testAddingFrameWhenMore=>void testAddingFrameWhenMoreThen10 FIELD
+RefactoringAction 1497032312430 TestBowling.java RENAME testAddingFrameWhenMoreThen10=>void testAddingFrameWhenMoreThen10() METHOD
+EditAction 1497032346289 TestBowling.java 1408 9 17 6

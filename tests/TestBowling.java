@@ -56,4 +56,12 @@ public class TestBowling {
 		assertEquals(1,bg.getFrames().size());
 	}
 	
+	
+	@Test(expected=BowlingException.class)
+	public void testAddingFrameWhenMoreThen10()throws BowlingException{
+		bg= new BowlingGame();
+		bg.addFrame(new Frame(2,2));
+	}
+	
+	
 }
