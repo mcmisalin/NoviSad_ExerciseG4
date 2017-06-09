@@ -86,10 +86,10 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testWhenFrameIsSpare()throws BowlingException{
+	public void testWhenLastFrameIsSpare()throws BowlingException{
 		bg= new BowlingGame();
-		bg.addFrame(new Frame(5, 5));
-		bg.addFrame(new Frame(1,0));
+		addFrames(bg, frame, 9);
+		bg.addFrame(new Frame(5,5));
 		assertEquals(11,bg.getFrames().get(0).getFrameScore());
 	}
 	

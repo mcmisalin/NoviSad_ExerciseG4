@@ -36,7 +36,7 @@ public class BowlingGame {
 				if(frames.get(i).isSpare()){
 					frames.get(i).setFrameScore(frames.get(i).getFrameScore()+frames.get(i+1).getFirstThrow());
 			
-				ukupno+=frames.get(i).getFrameScore();
+				ukupno+=frames.get(i).score();
 			}
 		}
 		return ukupno;
