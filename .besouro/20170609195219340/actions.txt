@@ -8,3 +8,10 @@ CompilationAction 1497031073974 TestBowling.java
 EditAction 1497031094778 TestBowling.java 214 1 2 1
 EditAction 1497031099926 TestBowling.java 210 1 2 1
 EditAction 1497031109397 BowlingException.java 59 0 0 0
+UnitTestCaseAction 1497031114343 TestBowling.java OK
+UnitTestSessionAction 1497031114346 TestBowling.java OK
+RefactoringAction 1497031146750 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031149771 TestBowling.java RENAME test=>void testSimpleS FIELD
+RefactoringAction 1497031150804 TestBowling.java RENAME testSimpleS=>void testSimpleScore FIELD
+RefactoringAction 1497031151848 TestBowling.java RENAME testSimpleScore=>void testSimpleScore() METHOD
+EditAction 1497031187949 TestBowling.java 319 2 4 2

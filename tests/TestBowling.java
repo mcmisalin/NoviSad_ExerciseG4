@@ -10,5 +10,11 @@ public class TestBowling {
 		frame= new Frame(2,2);
 		assertNotNull(frame);
 	}
+	
+	@Test
+	public void testSimpleScore(){
+		frame = new Frame(2,2);
+		assertEquals(4,frame.score());
+	}
 
 }
