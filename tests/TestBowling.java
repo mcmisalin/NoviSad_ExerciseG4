@@ -91,7 +91,7 @@ public class TestBowling {
 		addFrames(bg, new Frame(1,1), 9);
 		bg.addFrame(new Frame(5,5));
 		bg.setBonus(1, 0);
-		assertEquals(29,bg.getFrames().get(0).getFrameScore());
+		assertEquals(29,bg.score());
 	}
 	
 	
