@@ -103,6 +103,13 @@ public class TestBowling {
 		assertEquals(29,bg.score());
 	}
 	
+	@Test
+	public void testOpisPartije(){
+		bg=new BowlingGame();
+		bg.addFrame(new Frame(1,4));
+		
+	}
+	
 	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
 		for (int i = 0; i < number; i++) {
