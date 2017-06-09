@@ -69,3 +69,6 @@ RefactoringAction 1497031606620 BowlingException.java ADD BowlingException() MET
 RefactoringAction 1497031611666 BowlingException.java ADD BowlingException()/2 METHOD
 RefactoringAction 1497031615196 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
 EditAction 1497031619873 BowlingException.java 173 2 2 0
+RefactoringAction 1497031642004 TestBowling.java ADD void testIfF FIELD
+RefactoringAction 1497031646037 TestBowling.java RENAME testIfF=>void testIfFrameIsSpare() METHOD
+EditAction 1497031675156 TestBowling.java 767 5 8 3

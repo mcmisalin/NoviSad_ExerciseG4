@@ -26,4 +26,12 @@ public class TestBowling {
 	public void testWhenFirstisMoreThen10() throws BowlingException{
 		frame = new Frame(12,0);
 	}
+	
+	@Test
+	public void testIfFrameIsSpare(){
+		frame = new Frame(5,5);
+		assertTrue(frame.isSpare());
+	}
+	
+	
 }
