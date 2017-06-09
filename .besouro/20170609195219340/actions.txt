@@ -58,3 +58,6 @@ RefactoringAction 1497031506849 TestBowling.java RENAME testWhenFirstisMore=>voi
 RefactoringAction 1497031509883 TestBowling.java RENAME testWhenThrowMoreThen10()=>void testWhenThrowsMoreThen10() METHOD
 RefactoringAction 1497031510919 TestBowling.java RENAME testWhenThrowsMoreThen10()=>void testWhenThrowsAreMoreThen10() METHOD
 EditAction 1497031521900 TestBowling.java 594 4 6 2
+CompilationAction 1497031525980 TestBowling.java
+CompilationAction 1497031540647 TestBowling.java
+EditAction 1497031545195 Frame.java 899 6 10 0
