@@ -31,11 +31,12 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		for (int i = 0; i < frames.size(); i++) {
-			ukupno+=frames.get(i).getFrameScore();
+			
 			
 				if(frames.get(i).isSpare()){
 					frames.get(i).setFrameScore(frames.get(i).score()+frames.get(i+1).getFirstThrow());
-				
+			
+				ukupno+=frames.get(i).getFrameScore();
 			}
 		}
 		return ukupno;
