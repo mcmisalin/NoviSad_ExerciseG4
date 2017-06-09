@@ -1,6 +1,7 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int ukupno;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;

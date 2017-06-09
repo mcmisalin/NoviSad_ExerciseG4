@@ -15,3 +15,7 @@ RefactoringAction 1497031149771 TestBowling.java RENAME test=>void testSimpleS F
 RefactoringAction 1497031150804 TestBowling.java RENAME testSimpleS=>void testSimpleScore FIELD
 RefactoringAction 1497031151848 TestBowling.java RENAME testSimpleScore=>void testSimpleScore() METHOD
 EditAction 1497031187949 TestBowling.java 319 2 4 2
+UnitTestCaseAction 1497031193019 TestBowling.java FAIL
+UnitTestSessionAction 1497031193021 TestBowling.java FAIL
+RefactoringAction 1497031214305 Frame.java ADD int ukupno FIELD
+EditAction 1497031214456 Frame.java 693 6 7 0
