@@ -188,3 +188,6 @@ RefactoringAction 1497032933583 TestBowling.java RENAME testAddingBonus=>void te
 RefactoringAction 1497032971473 BowlingGame.java REMOVE setBonus(Frame) METHOD
 EditAction 1497032972763 BowlingGame.java 1073 7 6 0
 EditAction 1497033076480 TestBowling.java 1935 12 24 8
+UnitTestCaseAction 1497033083340 TestBowling.java FAIL
+UnitTestSessionAction 1497033083342 TestBowling.java FAIL
+EditAction 1497033123385 BowlingGame.java 1095 7 7 0
