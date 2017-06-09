@@ -265,3 +265,16 @@ UnitTestSessionAction 1497034893511 TestBowling.java FAIL
 RefactoringAction 1497034965118 TestBowling.java ADD void testWhenLastFrameIsSpare()/2 METHOD
 RefactoringAction 1497034968654 TestBowling.java RENAME testWhenLastFrameIsSpare()/2=>void testWhenLastFrameIsStrike() METHOD
 EditAction 1497034974814 TestBowling.java 2592 15 36 10
+UnitTestCaseAction 1497034982656 TestBowling.java FAIL
+UnitTestSessionAction 1497034982658 TestBowling.java FAIL
+UnitTestCaseAction 1497035184821 TestBowling.java FAIL
+UnitTestSessionAction 1497035184823 TestBowling.java FAIL
+UnitTestCaseAction 1497035262888 TestBowling.java FAIL
+UnitTestSessionAction 1497035262891 TestBowling.java FAIL
+UnitTestCaseAction 1497035313978 TestBowling.java FAIL
+UnitTestSessionAction 1497035313982 TestBowling.java FAIL
+UnitTestCaseAction 1497035324021 TestBowling.java FAIL
+UnitTestSessionAction 1497035324022 TestBowling.java FAIL
+UnitTestCaseAction 1497035417313 TestBowling.java FAIL
+UnitTestSessionAction 1497035417314 TestBowling.java FAIL
+EditAction 1497035421139 BowlingGame.java 1564 7 8 0
