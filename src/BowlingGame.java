@@ -32,10 +32,10 @@ public class BowlingGame {
 	public int score(){
 		for (int i = 0; i < frames.size(); i++) {
 			ukupno+=frames.get(i).getFrameScore();
-			if(i!=0){
-				if(frames.get(i-1).isSpare()){
-					frames.get(i-1).setFrameScore(frames.get(i-1).score()+frames.get(i).getFirstThrow());
-				}
+			
+				if(frames.get(i).isSpare()){
+					frames.get(i).setFrameScore(frames.get(i).score()+frames.get(i+1).getFirstThrow());
+				
 			}
 		}
 		return ukupno;
