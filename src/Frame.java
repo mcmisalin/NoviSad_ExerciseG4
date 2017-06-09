@@ -6,8 +6,10 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow) throws BowlingException{
 		if(this.firstThrow+this.secondThrow>10)
 			throw new BowlingException();
+
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		frameScore= firstThrow+secondThrow;
 	}
 	
 	public int getFirstThrow() {

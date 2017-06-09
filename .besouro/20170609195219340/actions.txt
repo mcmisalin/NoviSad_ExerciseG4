@@ -21,3 +21,5 @@ RefactoringAction 1497031214305 Frame.java ADD int ukupno FIELD
 EditAction 1497031214456 Frame.java 693 6 7 0
 RefactoringAction 1497031224342 Frame.java RENAME ukupno=>int frameScore FIELD
 EditAction 1497031281764 Frame.java 833 6 9 0
+CompilationAction 1497031284944 TestBowling.java
+EditAction 1497031303932 Frame.java 874 6 10 0
