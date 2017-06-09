@@ -49,3 +49,12 @@ CompilationAction 1497031471451 Frame.java
 CompilationAction 1497031478785 Frame.java
 RefactoringAction 1497031484952 TestBowling.java ADD void testWhen FIELD
 EditAction 1497031489251 Frame.java 865 6 10 0
+RefactoringAction 1497031497217 TestBowling.java RENAME testWhen=>void testWhenFirst FIELD
+RefactoringAction 1497031498742 TestBowling.java RENAME testWhenFirst=>void testWhenFirstSi FIELD
+RefactoringAction 1497031500262 TestBowling.java RENAME testWhenFirstSi=>void testWhenFirstiS FIELD
+RefactoringAction 1497031501787 TestBowling.java RENAME testWhenFirstiS=>void testWhenFirstis FIELD
+RefactoringAction 1497031504319 TestBowling.java RENAME testWhenFirstis=>void testWhenFirstisMore FIELD
+RefactoringAction 1497031506849 TestBowling.java RENAME testWhenFirstisMore=>void testWhenFirstisMoreThen10() METHOD
+RefactoringAction 1497031509883 TestBowling.java RENAME testWhenThrowMoreThen10()=>void testWhenThrowsMoreThen10() METHOD
+RefactoringAction 1497031510919 TestBowling.java RENAME testWhenThrowsMoreThen10()=>void testWhenThrowsAreMoreThen10() METHOD
+EditAction 1497031521900 TestBowling.java 594 4 6 2

@@ -18,7 +18,12 @@ public class TestBowling {
 	}
 	
 	@Test(expected=BowlingException.class)
-	public void testWhenThrowMoreThen10() throws BowlingException{
+	public void testWhenThrowsAreMoreThen10() throws BowlingException{
 		frame = new Frame(4,8);
+	}
+	
+	@Test
+	public void testWhenFirstisMoreThen10(){
+		frame = new Frame(12,0);
 	}
 }
