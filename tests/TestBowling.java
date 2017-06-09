@@ -79,11 +79,13 @@ public class TestBowling {
 		}
 	
 	
-	@Test
-	public void testAddingBonusMoreThen10(){
+	@Test (expected=BowlingException.class)
+	public void testAddingBonusMoreThen10() throws BowlingException{
 		bg = new BowlingGame();
 		bg.setBonus(4, 8);
 	}
+	
+	
 	
 	public void addFrames(BowlingGame bg, Frame frame, int number) throws BowlingException{
 		for (int i = 0; i < number; i++) {

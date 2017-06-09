@@ -203,3 +203,8 @@ RefactoringAction 1497033173395 TestBowling.java ADD void test FIELD
 RefactoringAction 1497033179930 TestBowling.java RENAME test=>void testAddingBonusMoreThen10 FIELD
 RefactoringAction 1497033181964 TestBowling.java RENAME testAddingBonusMoreThen10=>void testAddingBonusMoreThen10() METHOD
 EditAction 1497033198638 TestBowling.java 2068 13 26 8
+CompilationAction 1497033204258 TestBowling.java
+CompilationAction 1497033223716 TestBowling.java
+UnitTestCaseAction 1497033226905 TestBowling.java OK
+UnitTestSessionAction 1497033226907 TestBowling.java OK
+EditAction 1497033240867 TestBowling.java 2132 13 26 8
