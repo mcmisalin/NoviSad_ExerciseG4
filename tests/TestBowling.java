@@ -7,8 +7,8 @@ public class TestBowling {
 	Frame frame;
 	@Test
 	public void testFrameContrs() {
-		frame= new Frame();
-		
+		frame= new Frame(2,2);
+		assertNotNull(frame);
 		
 	}
 

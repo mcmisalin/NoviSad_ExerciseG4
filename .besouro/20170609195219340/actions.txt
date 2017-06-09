@@ -3,3 +3,6 @@ RefactoringAction 1497031024102 TestBowling.java RENAME test()=>void testFrameco
 RefactoringAction 1497031026139 TestBowling.java RENAME testFramecontrs()=>void testFrameContrs() METHOD
 RefactoringAction 1497031060893 TestBowling.java ADD Frame frame FIELD
 EditAction 1497031061173 TestBowling.java 190 1 1 0
+CompilationAction 1497031064402 TestBowling.java
+CompilationAction 1497031073974 TestBowling.java
+EditAction 1497031094778 TestBowling.java 214 1 2 1
