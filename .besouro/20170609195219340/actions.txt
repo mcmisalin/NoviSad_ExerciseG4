@@ -119,3 +119,5 @@ RefactoringAction 1497032101571 BowlingGame.java ADD void setFrames(List<Frame>)
 RefactoringAction 1497032101580 BowlingGame.java ADD Frame getBonus() METHOD
 RefactoringAction 1497032101585 BowlingGame.java ADD void setBonus(Frame) METHOD
 EditAction 1497032122277 TestBowling.java 1219 8 15 6
+CompilationAction 1497032125393 TestBowling.java
+EditAction 1497032133951 TestBowling.java 1226 8 15 6
